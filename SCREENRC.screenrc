@@ -1,0 +1,30 @@
+# Usage
+# cp SCREENRC.screenrc ~/.screenrc
+
+# Reference
+# http://archerworks.blogspot.tw/2010/05/linuxscreenbindkey.html
+# http://www.seanodonnell.com/code/?id=99
+
+# Start message
+startup_message off
+
+# Set hardstatus always on
+hardstatus alwayslastline " %-Lw%{= Bw}%n%f %t%{-}%+Lw %=| %M %d %0c:%s "
+
+# Set default encoding using utf8
+defutf8 on
+
+# Refresh the display when exiting programs
+altscreen on
+
+# Dynamic title
+shelltitle '$ |bash'
+
+# Disable vbell
+vbell off
+
+# Keboard binding
+# bind F11 to move to previous window
+bindkey -k F1 prev
+# bind F12 to move to next window
+bindkey -k F2 next
