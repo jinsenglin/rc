@@ -7,3 +7,7 @@ export LSCOLORS="gxfxcxdxcxegedabagacad"
 # nvm
 source $(brew --prefix nvm)/nvm.sh
 nvm use --delete-prefix v6.10.0
+
+# pyenv
+eval "$(pyenv init -)"
+pyenv shell 2.7.13
