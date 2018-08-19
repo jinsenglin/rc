@@ -1,6 +1,8 @@
 # Usage
 # 1. open a terminal
 # 2. source this file
+#
+# or source this file in the ~/.bash_profile
 
 # doAfter hook
 function prompt {

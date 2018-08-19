@@ -8,3 +8,6 @@ export LSCOLORS="gxfxcxdxcxegedabagacad"
 
 # alias
 alias ll="ls -l"
+
+# bash hook
+# source BASHHOOK.sh
